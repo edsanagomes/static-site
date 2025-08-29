@@ -2,26 +2,40 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
   <title>Static site</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header class="navbar"> <!--cabeçalho-->
-    <div class="flex-container"> <!--ver-->
-     <img src="picture/Logo.svg" alt="logo" class="logo"> <!--ver-->
+    <div class="flex-container">
+      <!--permet de contrôler la position et l’alignement et très utilisé pour des menus, layouts, etc-->
+      <img src="picture/Logo.svg" alt="logo" class="logo"> <!--ver-->
 
-   <nav class="menus"> 
-    <div class="menu-links"></div> <!--pq tenho q modificar um dos menus-->
-    <a href="#" class="active">HOME</a>
-    <a href="#">ABOUT</a>
-    <a href="#">SERVICE</a>
-    <a href="#">OUR WORK</a>
-    <a href="#" class="contact">CONTACT US</a> <!--o q vou modificar-->
-   </nav>
-   </div>
+      <nav class="menus">
+        <div class="menu-links"></div> <!--pq tenho q modificar um dos menus-->
+        <a href="#" class="active">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICE</a>
+        <a href="#">OUR WORK</a>
+        <a href="#" class="contact">CONTACT US</a> <!--o q vou modificar-->
+      </nav>
+    </div>
   </header>
-</body>
-</html> 
 
+  <div class="main">
+    <div class="text">
+      <h1 class="tagline"> We help to <br> create <span class="highlight">Brands</span><br> With coffee
+      </h1>
+      <p class="button">See our work</p>
+    </div>
+    <div class="image-container">
+      <img src="picture/Illustration.jpg" alt="illustration">
+
+    </div>
+  </div>
+
+</body>
+
+</html>

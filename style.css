@@ -6,24 +6,30 @@ body {
 header.navbar {
   width: 1920px;
   height: 84px;
-  align-items: center; /* para centralizar verticalmente */
+  align-items: center;
+  /* para centralizar verticalmente */
   padding: 8px 150px;
   justify-content: space-between;
-  box-sizing: border-box; /* garante que padding não aumente largura total */
+  box-sizing: border-box;
+  /* garante que padding não aumente largura total */
   opacity: 1;
 }
 
 .flex-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-} /*alinhar e distribuir os elementos*/
+}
 
-.logo { 
-  height: 41px;  
-  
-} /*ver isso*/ 
+/*alinhar e distribuir os elementos*/
+
+.logo {
+  height: 41px;
+
+}
+
+/*ver isso*/
 
 .menus {
   display: flex;
@@ -35,22 +41,24 @@ align-items: center;
 a.active {
   display: inline-block;
   border-bottom: 4px solid #FF5678;
- 
+
 }
 
 .menu-links {
   display: flex;
-  gap: 60px; /* espaço entre os 4 links */
+  gap: 60px;
+  /* espaço entre os 4 links */
   height: 28px;
   align-items: center;
   font-size: 16px;
-  
+
 }
 
 a {
   text-decoration: none;
-  color:#020E35;
-  font-weight: 500; /*ver isso*/
+  color: #020E35;
+  font-weight: 500;
+  /*ver isso*/
   display: flex;
   align-items: center;
 }
@@ -67,7 +75,58 @@ a {
   padding: 0;
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  padding: 60px 150px;
+  align-items: center;
+  /* faz text e imagem terem a mm altura */
+  height: 1008px;
+}
 
 
+.text {
+  width: 548px;
+  height: 457px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
 
+.highlight {
+  background-color: #FF5678;
+  color: white;
+  padding: 0 1px;
+  display: inline-block; /*meter a palavra amesma altura q a cor*/
+  line-height: 1; 
+}
 
+.tagline {
+  font-weight: 900;
+  font-size: 76px;
+  font-family: 'Merriweather', serif;
+  width: 700px; /*espaço para poder caber palavras q eu quero na mm linha*/
+}
+
+.button {
+  width: 197px;
+  height: 71px;
+  padding: 24px 40px;
+  background-color: #020E35;
+  color: white;
+  font-size: 18px;
+  font-weight: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}/*tem a largura e altura indicada*/
+
+.image-container {
+  width: 592px;
+  height: 508px;
+  padding: 4px;
+  border-radius: 200px;
+  overflow: hidden; /*garantir que a imagem se encaixe corretamente dentro do contorno arredondado.*/
+}
