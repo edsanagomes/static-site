@@ -19,14 +19,12 @@ header.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 /*alinhar e distribuir os elementos*/
 
 .logo {
   height: 41px;
-
 }
 
 /*ver isso*/
@@ -41,7 +39,6 @@ header.navbar {
 a.active {
   display: inline-block;
   border-bottom: 4px solid #FF5678;
-
 }
 
 .menu-links {
@@ -51,7 +48,6 @@ a.active {
   height: 28px;
   align-items: center;
   font-size: 16px;
-
 }
 
 a {
@@ -84,7 +80,6 @@ a {
   /* faz text e imagem terem a mm altura */
   height: 1008px;
 }
-
 
 .text {
   width: 548px;
@@ -130,3 +125,114 @@ a {
   border-radius: 200px;
   overflow: hidden; /*garantir que a imagem se encaixe corretamente dentro do contorno arredondado.*/
 }
+
+.prepare-container {
+  display: flex;
+  justify-content: flex-start; /* imagem à esquerda */
+  align-items: center;         /* alinha verticalmente */
+  margin: 0 auto;
+  padding-top: 100px;           /* distância do topo */
+  padding-left: 150px;          /* distância da borda esquerda */
+  gap: 511px;                   /* espaço entre imagem e texto */
+  box-sizing: border-box;
+  border-radius: 500px;         /* se quiser manter */
+}
+.image-wrapper {
+  width: 592px;
+  height: 508px;
+  border-radius: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* opcional, para espaçar imagem interna */
+}
+
+.content-text {
+  font-family:'Merriweather', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centraliza verticalmente */
+  align-items: flex-start;   /* alinha texto e botões à esquerda dentro do bloco */
+  text-align: left;
+  max-width: 517px;
+  height: 435px;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.content-text h2 {
+  color: #020E35;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 54px;
+  line-height: 62px;
+  letter-spacing: 0;
+  margin-bottom: 42px;
+}
+
+.content-text p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.highlight-pink {
+  background: linear-gradient(to right,  #FF5678 0%, #FF5678 100%);
+  background-repeat: no-repeat;
+  background-size: 120% 0.6em;     /* Aumenta a largura do fundo */
+  background-position: -5% 100%;   /* Move o fundo um pouco para a esquerda */
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 63px;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;       
+  height: auto;    
+  margin: 60px 0px 0px 0px;
+}
+
+.action-button {
+  font-family: 'Merriweather', serif;
+  height: 71px;
+  padding: 24px 40px;
+  background-color: #020E35;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 63px;
+  box-sizing: border-box;
+} /*button "learn more" */
+
+.video-button { 
+  font-family: 'Merriweather', serif;
+  color:#2B2B2B;
+  width: 212px;
+  height: 71px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.play-icon {
+  width: 68px;
+  height: 68px;
+} /*image de button*/
+
