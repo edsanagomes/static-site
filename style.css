@@ -552,3 +552,67 @@ body {
   .arrow-left .arrow-right {
     width: 80px;
     height: 80px; }
+
+  .contact-section {
+    margin-top: 100px; }
+
+  .contact-container, .newsletter-container {
+    display: flex;
+    justify-content: space-between; }
+
+  .newsletter-section {
+    margin-top: 300px; }
+
+  .contact-container .form-image-placeholder {
+    transform: translateY(200px); }
+    
+  .form-image-placeholder {
+    width: 700px;
+    height: 600px;
+    gap: 4px; 
+    border-radius: 1000px; /* deixa totalmente arredondado */
+    background-color: #FFEEF6; 
+    opacity: 1; }
+
+  .form-wrapper {
+    max-width: 580px; }
+
+  .form-wrapper h2 {
+    width: 610px;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    margin-bottom: 100px; }
+
+  .form-group {
+    margin-bottom: 24px; }
+
+  .form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #020E35; }
+
+  .form-group input, .form-group textarea {
+    width: 656px;        
+    height: 70px;        
+    opacity: 1;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 4px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #020E35;  /* ou a cor que preferir */
+    font-size: 16px;
+    background-color: #FFEEF6; }
+
+  .form-wrapper .action-button {
+     width: auto; 
+     width: 205px;
+     height: 71px;
+     opacity: 1;
+     padding: 24px 80px;
+     gap: 4px;
+     font-size: 18px;
+     box-shadow: 0px 20px 40px 5px #00000040; } /* Ensures button doesn't stretch */
