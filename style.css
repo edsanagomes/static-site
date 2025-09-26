@@ -334,8 +334,7 @@ body {
     opacity: 1; }
   
   .form-section {
-    margin: 150px;
-    text-align: center;  }
+    margin: 150px; }
   
   .form-title {
     margin-top: 100px;
@@ -558,7 +557,9 @@ body {
 
   .contact-container, .newsletter-container {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px; }
 
   .newsletter-section {
     margin-top: 300px; }
@@ -616,89 +617,3 @@ body {
      gap: 4px;
      font-size: 18px;
      box-shadow: 0px 20px 40px 5px #00000040; } /* Ensures button doesn't stretch */
-
-  .site-footer {  
-    padding-top: 120px;
-    position: relative;
-    overflow: hidden; }
-
-  .footer-container {
-    display: grid;
-    grid-template-columns: 300px 194px 194px 194px 194px;
-    column-gap: 154px;
-    padding: 0 150px;
-    margin-bottom: 100px; /* 👈 adiciona o espaço abaixo das colunas */
-    position: relative;
-    z-index: 2; }
-
-  .footer-logo {
-    margin-right: 310px;
-    margin-bottom: 32px; }
-
-  .social-icons {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 35px; }
-
-  .social-icons img {
-    height: 28px;
-    opacity: 0.8; }
-
-  .footer-address-title {
-    font-weight: 700;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 16px; }
-
-  .footer-about p {
-    line-height: 1.5;
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 16px; }
-
-  .footer-about p:nth-of-type(2) {
-    margin-bottom: 0;  }
-
-  .footer-about p span {
-    display: block;
-    margin-bottom: 0; }
-
-  .footer-column-wrapper {
-    justify-content: flex-start; }
-
-  .footer-column h4 {
-    margin-bottom: 17px; /* espace entre h4 et li */
-    font-size: 20px;
-    font-weight: 700;}
-
-  .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-
-  .footer-links li {
-    margin-bottom: 16px; }
-
-  .footer-links a {
-    font-weight: 400px;
-    text-decoration: none;
-    font-size: 14px; }
-
- 
-  .footer-shape-1, .footer-shape-2 {
-    background-color: #FFEEF6;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1; }
-
-  .footer-shape-1 {
-    width: 500px;
-    height: 500px;
-    left: -150px; /* Adjusted position */
-    top: -80px; }
-
-  .footer-shape-2 {
-    width: 700px;
-    height: 700px;
-    right: -100px;  /* Adjusted position and size */
-    bottom: -280px; }
